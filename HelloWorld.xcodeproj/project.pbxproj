@@ -9,14 +9,9 @@
 /* Begin PBXBuildFile section */
 		503FEDDA272B3C570068E07E /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503FEDD9272B3C570068E07E /* Tests_iOS.swift */; };
 		503FEDDC272B3C570068E07E /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503FEDDB272B3C570068E07E /* Tests_iOSLaunchTests.swift */; };
-		503FEDE6272B3C570068E07E /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503FEDE5272B3C570068E07E /* Tests_macOS.swift */; };
-		503FEDE8272B3C570068E07E /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503FEDE7272B3C570068E07E /* Tests_macOSLaunchTests.swift */; };
 		503FEDE9272B3C570068E07E /* HelloWorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503FEDC1272B3C550068E07E /* HelloWorldApp.swift */; };
-		503FEDEA272B3C570068E07E /* HelloWorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503FEDC1272B3C550068E07E /* HelloWorldApp.swift */; };
 		503FEDEB272B3C570068E07E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503FEDC2272B3C550068E07E /* ContentView.swift */; };
-		503FEDEC272B3C570068E07E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503FEDC2272B3C550068E07E /* ContentView.swift */; };
 		503FEDED272B3C570068E07E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 503FEDC3272B3C570068E07E /* Assets.xcassets */; };
-		503FEDEE272B3C570068E07E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 503FEDC3272B3C570068E07E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,13 +22,6 @@
 			remoteGlobalIDString = 503FEDC7272B3C570068E07E;
 			remoteInfo = "HelloWorld (iOS)";
 		};
-		503FEDE2272B3C570068E07E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 503FEDBC272B3C540068E07E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 503FEDCD272B3C570068E07E;
-			remoteInfo = "HelloWorld (macOS)";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -41,12 +29,10 @@
 		503FEDC2272B3C550068E07E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		503FEDC3272B3C570068E07E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		503FEDC8272B3C570068E07E /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		503FEDCE272B3C570068E07E /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		503FEDD0272B3C570068E07E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		503FEDD5272B3C570068E07E /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		503FEDD9272B3C570068E07E /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
 		503FEDDB272B3C570068E07E /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
-		503FEDE1272B3C570068E07E /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		503FEDE5272B3C570068E07E /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		503FEDE7272B3C570068E07E /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,21 +45,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		503FEDCB272B3C570068E07E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		503FEDD2272B3C570068E07E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		503FEDDE272B3C570068E07E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -108,9 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				503FEDC8272B3C570068E07E /* HelloWorld.app */,
-				503FEDCE272B3C570068E07E /* HelloWorld.app */,
 				503FEDD5272B3C570068E07E /* Tests iOS.xctest */,
-				503FEDE1272B3C570068E07E /* Tests macOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -161,23 +131,6 @@
 			productReference = 503FEDC8272B3C570068E07E /* HelloWorld.app */;
 			productType = "com.apple.product-type.application";
 		};
-		503FEDCD272B3C570068E07E /* HelloWorld (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 503FEDF4272B3C570068E07E /* Build configuration list for PBXNativeTarget "HelloWorld (macOS)" */;
-			buildPhases = (
-				503FEDCA272B3C570068E07E /* Sources */,
-				503FEDCB272B3C570068E07E /* Frameworks */,
-				503FEDCC272B3C570068E07E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "HelloWorld (macOS)";
-			productName = "HelloWorld (macOS)";
-			productReference = 503FEDCE272B3C570068E07E /* HelloWorld.app */;
-			productType = "com.apple.product-type.application";
-		};
 		503FEDD4272B3C570068E07E /* Tests iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 503FEDF7272B3C570068E07E /* Build configuration list for PBXNativeTarget "Tests iOS" */;
@@ -196,24 +149,6 @@
 			productReference = 503FEDD5272B3C570068E07E /* Tests iOS.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		503FEDE0272B3C570068E07E /* Tests macOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 503FEDFA272B3C570068E07E /* Build configuration list for PBXNativeTarget "Tests macOS" */;
-			buildPhases = (
-				503FEDDD272B3C570068E07E /* Sources */,
-				503FEDDE272B3C570068E07E /* Frameworks */,
-				503FEDDF272B3C570068E07E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				503FEDE3272B3C570068E07E /* PBXTargetDependency */,
-			);
-			name = "Tests macOS";
-			productName = "Tests macOS";
-			productReference = 503FEDE1272B3C570068E07E /* Tests macOS.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -227,16 +162,9 @@
 					503FEDC7272B3C570068E07E = {
 						CreatedOnToolsVersion = 13.1;
 					};
-					503FEDCD272B3C570068E07E = {
-						CreatedOnToolsVersion = 13.1;
-					};
 					503FEDD4272B3C570068E07E = {
 						CreatedOnToolsVersion = 13.1;
 						TestTargetID = 503FEDC7272B3C570068E07E;
-					};
-					503FEDE0272B3C570068E07E = {
-						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 503FEDCD272B3C570068E07E;
 					};
 				};
 			};
@@ -254,9 +182,7 @@
 			projectRoot = "";
 			targets = (
 				503FEDC7272B3C570068E07E /* HelloWorld (iOS) */,
-				503FEDCD272B3C570068E07E /* HelloWorld (macOS) */,
 				503FEDD4272B3C570068E07E /* Tests iOS */,
-				503FEDE0272B3C570068E07E /* Tests macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -270,22 +196,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		503FEDCC272B3C570068E07E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				503FEDEE272B3C570068E07E /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		503FEDD3272B3C570068E07E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		503FEDDF272B3C570068E07E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -304,30 +215,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		503FEDCA272B3C570068E07E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				503FEDEC272B3C570068E07E /* ContentView.swift in Sources */,
-				503FEDEA272B3C570068E07E /* HelloWorldApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		503FEDD1272B3C570068E07E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				503FEDDC272B3C570068E07E /* Tests_iOSLaunchTests.swift in Sources */,
 				503FEDDA272B3C570068E07E /* Tests_iOS.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		503FEDDD272B3C570068E07E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				503FEDE8272B3C570068E07E /* Tests_macOSLaunchTests.swift in Sources */,
-				503FEDE6272B3C570068E07E /* Tests_macOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,11 +231,6 @@
 			isa = PBXTargetDependency;
 			target = 503FEDC7272B3C570068E07E /* HelloWorld (iOS) */;
 			targetProxy = 503FEDD6272B3C570068E07E /* PBXContainerItemProxy */;
-		};
-		503FEDE3272B3C570068E07E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 503FEDCD272B3C570068E07E /* HelloWorld (macOS) */;
-			targetProxy = 503FEDE2272B3C570068E07E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -519,62 +407,6 @@
 			};
 			name = Release;
 		};
-		503FEDF5272B3C570068E07E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PN6PSFB2P3;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bix-digital.HelloWorld";
-				PRODUCT_NAME = HelloWorld;
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		503FEDF6272B3C570068E07E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PN6PSFB2P3;
-				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bix-digital.HelloWorld";
-				PRODUCT_NAME = HelloWorld;
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 		503FEDF8272B3C570068E07E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -626,56 +458,6 @@
 			};
 			name = Release;
 		};
-		503FEDFB272B3C570068E07E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PN6PSFB2P3;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bix-digital.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "HelloWorld (macOS)";
-			};
-			name = Debug;
-		};
-		503FEDFC272B3C570068E07E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = PN6PSFB2P3;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.bix-digital.Tests-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "HelloWorld (macOS)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -697,29 +479,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		503FEDF4272B3C570068E07E /* Build configuration list for PBXNativeTarget "HelloWorld (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				503FEDF5272B3C570068E07E /* Debug */,
-				503FEDF6272B3C570068E07E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		503FEDF7272B3C570068E07E /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				503FEDF8272B3C570068E07E /* Debug */,
 				503FEDF9272B3C570068E07E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		503FEDFA272B3C570068E07E /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				503FEDFB272B3C570068E07E /* Debug */,
-				503FEDFC272B3C570068E07E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

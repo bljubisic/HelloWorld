@@ -12,7 +12,7 @@ pool:
 steps:
 - task: InstallAppleCertificate@2
   inputs:
-    certSecureFile: 'bicerificate.p12'
+    certSecureFile: 'bicertificate.p12'
     certPwd: '$(P12password)'
     #keychain: 'temp' # Options: default, temp, custom
     #keychainPassword: # Required when keychain == Custom || Keychain == Default

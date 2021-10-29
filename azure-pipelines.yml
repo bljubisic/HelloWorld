@@ -10,16 +10,6 @@ pool:
   vmImage: 'macos-latest'
 
 steps:
-- task: InstallAppleCertificate@2
-  inputs:
-    certSecureFile: 'persukibocert.p12'
-    certPwd: '$(P12password)'
-    #keychain: 'temp' # Options: default, temp, custom
-    #keychainPassword: # Required when keychain == Custom || Keychain == Default
-    #customKeychainPath: # Required when keychain == Custom
-    #deleteCert: # Optional
-    #deleteCustomKeychain: # Optional
-    #signingIdentity: # Optional
 - task: Xcode@5
   inputs:
     actions: 'build'

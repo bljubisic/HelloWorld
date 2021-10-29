@@ -12,7 +12,7 @@ pool:
 steps:
 - task: InstallAppleCertificate@2
   inputs:
-    certSecureFile: 'bicertificate.p12'
+    certSecureFile: 'persukibocert.p12'
     certPwd: '$(P12password)'
     #keychain: 'temp' # Options: default, temp, custom
     #keychainPassword: # Required when keychain == Custom || Keychain == Default
@@ -20,6 +20,14 @@ steps:
     #deleteCert: # Optional
     #deleteCustomKeychain: # Optional
     #signingIdentity: # Optional
+# Install Apple provisioning profile
+# Install an Apple provisioning profile required to build on a macOS agent machine
+- task: InstallAppleProvisioningProfile@1
+  inputs:
+    provisioningProfileLocation: 'secureFiles' # Options: secureFiles, sourceRepository
+    provProfileSecureFile: ''
+    #provProfileSourceRepository: # Required when provisioningProfileLocation == SourceRepository
+    #removeProfile: true # Optional
 - task: Xcode@5
   inputs:
     actions: 'build'

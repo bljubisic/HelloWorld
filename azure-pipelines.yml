@@ -31,6 +31,7 @@ steps:
     packageApp: true
     signingOption: 'auto'
     teamId: '$(TEAMID)'
+    
 - task: CopyFiles@2
   inputs:
     contents: '**/*.ipa'

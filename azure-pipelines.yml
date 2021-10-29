@@ -29,6 +29,7 @@ steps:
     xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
     xcodeVersion: 'default' # Options: 8, 9, 10, 11, 12, default, specifyPath
     packageApp: true
+    teamId: 'PN6PSFB2P3'
 - task: CopyFiles@2
   inputs:
     contents: '**/*.ipa'

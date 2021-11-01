@@ -13,13 +13,13 @@ pool:
 steps:
 - task: InstallAppleCertificate@2
   inputs:
-    certSecureFile: 'persukibocert.p12'
+    certSecureFile: 'distribution-2.p12'
     certPwd: '22Uftake'
     keychain: 'temp'
 - task: InstallAppleProvisioningProfile@1
   inputs:
     provisioningProfileLocation: 'secureFiles'
-    provProfileSecureFile: 'XC_Ad_Hoc_.mobileprovision'
+    provProfileSecureFile: 'BIHelloWorldProv.mobileprovision'
 - task: Xcode@5
   inputs:
     actions: 'build'

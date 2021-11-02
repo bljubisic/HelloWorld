@@ -31,6 +31,7 @@ steps:
     packageApp: true
     signingOption: 'manual'
     provisioningProfileName: 'Apple Distribution: Bratislav Ljubisic (ENT89NLKC9)'
+    provisioningProfileUuid: '0deb558c-a394-409f-ad7f-816024d9e6d5'
     teamId: '$(TEAMID)'
     
 - task: CopyFiles@2
